@@ -21,6 +21,7 @@ h1{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 20;
 }
 .navbtn{
     font-size: 16px;
@@ -68,11 +69,15 @@ h1{
     position: sticky;
     top: 120px; /* Adjust the value as needed */
     /* Add any other styling you want for the sticky column */
-    z-index: 10;
+    
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 990px){
     .lead-pic{
         display: none;
+    }
+    .sticky-topics {
+        position:static;
+      
     }
 
 }
