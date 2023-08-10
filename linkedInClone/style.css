@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: #f3f2ef;
+}
+
+.navbar-nav li {
+    width: 70px;
+    font-size: 10px;
+}
+.nav-pp img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.nav-pp{
+    border-right: 1px solid rgba(128, 128, 128, 0.493);
+    height: 4.7em;
+}
+.navbar-brand{
+    color: #0a66c2;
+}
+nav{
+    border: 2px solid rgba(158, 151, 151, 0.486);
+}
+.leftSide .profile,.leftSide .activities{
+    border: 2px solid rgba(153, 146, 146, 0.356);
+    border-radius: 10px;
+    background-color: white;
+    padding: 0;
+}
+.mid{
+    border: 2px solid rgba(153, 146, 146, 0.356);
+    border-radius: 10px;
+    background-color: white;
+}
+.rightSide{
+    border: 2px solid rgba(153, 146, 146, 0.356);
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.profile img{
+    width: 70px;
+    height: 70px;
+}
+p,a{
+    font-size: 12px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.more:hover{
+    opacity: 0.3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.borderB{
+    border-bottom: 1px solid rgba(187, 179, 179, 0.548);
+}
